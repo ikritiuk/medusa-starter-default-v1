@@ -2069,7 +2069,7 @@
     webpackbar "^5.0.2"
     zod "^3.22.2"
 
-"@medusajs/admin@^7.1.9":
+"@medusajs/admin@7.1.9":
   version "7.1.9"
   resolved "https://registry.yarnpkg.com/@medusajs/admin/-/admin-7.1.9.tgz#535bc5561b8fc00e6a008193bc7933255b2d41c4"
   integrity sha512-JhWAMoGBEw1SJ2QY2d6cdQTWmTe4K5/4hlzBAMGBci0vInTFAZfnPuG/A3b8KH9koY4QWxpQEOmZFzVF5XVXCA==
