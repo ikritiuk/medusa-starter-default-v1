@@ -38,6 +38,16 @@ const plugins = [
     `medusa-fulfillment-manual`,
     `medusa-payment-manual`,
     {
+        resolve: "@medusajs/admin",
+        /** @type {import('@medusajs/admin').PluginOptions} */
+        options: {
+            autoRebuild: true,
+            develop: {
+                open: process.env.OPEN_BROWSER !== "false",
+            },
+        },
+    },
+    {
         resolve: `medusa-file-spaces`,
         options: {
             spaces_url: process.env.SPACE_URL,
