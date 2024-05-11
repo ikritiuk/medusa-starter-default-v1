@@ -13,6 +13,7 @@
       "is_giftcard": false,
       "weight": 400,
       "images": [
+        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/coffee-mug.png"
       ],
       "options": [
         {
