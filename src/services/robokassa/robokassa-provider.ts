@@ -39,8 +39,9 @@ class RobokassaProviderService {
     async createPayment(
         context: any
     ): Promise<PaymentSessionResponse> {
-        const { order } = context;
-        const { id, total } = order;
+        const { amount, metadata } = context;
+        const total = amount;
+        const id = metadata.order_id;
         const params = {
             MerchantLogin: this.options.merchantLogin,
             OutSum: (total / 100).toFixed(2),
